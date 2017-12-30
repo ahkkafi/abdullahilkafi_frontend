@@ -1,0 +1,257 @@
+.page-header {
+    margin-top: 0;
+    background-image: url('../images/slider.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: white;
+    background-color: #5450a4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.nav > li {
+    margin-left: 20px;
+
+}
+.navbar-nav {
+    margin-top: 60px;
+}
+
+.icon-bar {
+    background-color: #ffffff;
+}
+
+
+.loginlink a {
+    background-color: #68c5be !important;
+    padding: 2px 5px 2px 5px !important;
+}
+
+.registerlink a {
+    background-color: transparent !important;
+    color: #5450a4 !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.registerlink {
+    margin-left: 5px !important;
+}
+.slider-text {
+    color: #425568;
+    position: absolute;
+    top: 50%;
+    right:20%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.appstoreicon {
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.socialicon {
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.add-container ul li{
+    list-style-type:none;
+    margin-bottom:30px;
+    text-align:center;
+}
+.btn-squire {
+    border-radius:0;
+}
+.services_list_container ul li {
+    float: left;
+}
+.content_div {
+    background-color: #eeeef0;
+}
+.pricing-container {
+    background-color: #5350a2;
+    padding:30px;
+}
+.fa-3x {
+    color: #5350a2;
+    margin-left:10px;
+}.pricing-item-wrapper {
+    background-color: #e8e8e8;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.pricing-item-wrapper ul {
+    padding-left:0;
+}
+.pricing-item-wrapper ul li {
+        list-style-type: none;
+        padding:10px;
+        border-bottom: 1px solid white;
+}
+.registerbutton {
+    background-color: #5350a2;
+    color: white;
+    border-radius: 0;
+
+}
+.content1strow {
+    background-color: #5350a2;
+}
+.white-Text{
+    color:white;
+}
+.content1strow {
+    padding:50px 20px 50px 20px;
+}
+.lipsum 
+{
+border-bottom:2px solid #c6c6c6;
+padding:20px 20px 20px 30px;
+
+}
+.lipsum ul {
+    list-style: none;
+    padding: 0;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    -moz-column-gap: 40px;
+}
+
+.lipsum li {
+    padding-left: 1.3em;
+    margin-bottom:10px;
+}
+
+    .lipsum li:before {
+        content: "\f054"; /* FontAwesome Unicode */
+        font-family: FontAwesome;
+        color: #5350a2;
+        display: inline-block;
+        margin-left: -1.3em; /* same as padding-left set on li */
+        width: 1.3em; /* same as padding-left set on li */
+    }
+
+
+.pricing-item-header {
+    color: white;
+    background-color: #6bc7be;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+footer ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 10px;
+}
+
+footer li + li:before {
+    content: "| ";
+    color:#f9c972;
+}
+footer {
+    background-color: #eeeef0;
+    color:#5350a2;
+    padding:20px;
+}
+
+
+
+
+
+@media screen and (max-width: 770px) {
+    .navbar-header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #f4f3f3;
+    }
+
+    .navbar-brand {
+        padding-top: 0;
+    }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+
+    .navbar-collapse {
+
+        background-color: #ffffff;
+    }
+
+    .navbar-toggle {
+        background-color: #5450a4;
+    }
+
+    .nav > li > a {
+        text-decoration: none;
+        color: #5450a4;
+        background-color: #ffffff;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .nav > li {
+        margin-left: 0px;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .slider-text {
+        color: #425568;
+        position: relative;
+        top: 30%;
+        right: 0;
+        font-size: 30px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .appstoreicon a img {
+        margin-bottom: 10px;
+    }
+
+    .appstoreicon {
+        position: absolute;
+        top: 50%;
+       
+        left: 20%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .socialicon {
+        position: absolute;
+        top: 87%;
+        right: 29%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .coppyright{
+        text-align:center;
+    }
+}
